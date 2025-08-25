@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           YouTube search"People also watched" is dead
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    YouTubeの検索結果に出てくる要らないおすすめをある程度消します
+@author         toarugema
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.youtube.com/results") {
+
+    div.style-scope.ytd-shelf-renderer{
+        
+        display: none;
+    
+    }
+
+}
